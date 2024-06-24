@@ -1,4 +1,4 @@
-# Xtrades
+# Bot
 Simple bot fetching data from Bybit, calculating RSI and sending message on  dedicated discord channel  when certain values of RSI are reached 
 
 ## Pre-requirements
