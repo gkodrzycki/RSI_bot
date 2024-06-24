@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: .
+      args:
+        POETRY_VERSION: 1.8.1
+    env_file: 
+      - .env
+    command: poetry run python src/main.py
+
